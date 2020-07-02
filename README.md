@@ -7,12 +7,7 @@ As it is using pyTorch's [JIT compilation](https://pytorch.org/tutorials/advance
 
 ### Requirements
 The only requirement is:
-  * Pytorch>=1.1.0 
-
-If you it is not installed already, run:
-```
-pip install -r requirements.txt
-```
+  * [Pytorch>=1.1.0](https://pytorch.org/get-started/locally/) 
   
 ### Installation
 To install the package simply run the following line:
