@@ -6,8 +6,13 @@ As it is using pyTorch's [JIT compilation](https://pytorch.org/tutorials/advance
 
 
 ### Requirements
+The only requirement is:
+  * Pytorch>=1.1.0 
 
-  * Pytorch>=1.10 
+If you it is not installed already, run:
+```
+pip install -r requirements.txt
+```
   
 ### Installation
 To install the package simply run the following line:
@@ -26,15 +31,15 @@ pip install .
 
 ### Usage
 ```python
+import torch
 from chamfer_distance import ChamferDistance
 chamfer_dist = ChamferDistance()
 
-#...
-# points and points_reconstructed are n_points x 3 matrices
+p1 = torch.rand([10,25,3])
+p2 = torch.rand([10,15,3])
 
-dist1, dist2 = chamfer_dist(points, points_reconstructed)
+dist1, dist2, idx1, idx2 = chamfer_dist(p1,p2)
 loss = (torch.mean(dist1)) + (torch.mean(dist2))
-
 
 #...
 ```
