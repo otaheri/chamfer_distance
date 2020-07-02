@@ -4,10 +4,23 @@ This is an implementation of the Chamfer Distance as a module for pyTorch. It is
 
 As it is using pyTorch's [JIT compilation](https://pytorch.org/tutorials/advanced/cpp_extension.html), there are no additional prerequisite steps that have to be taken. Simply import the module as shown below; CUDA and C++ code will be compiled on the first run.
 
+
+### Requirements
+
+  * Pytorch>=1.10 
+  
 ### Installation
-To install the package simply run the following line.
+To install the package simply run the following line:
 ```
 pip install git+'https://github.com/OmidThr/chamfer_distance'
+
+```
+Or clone and install as below:
+
+```
+git clone https://github.com/OmidThr/chamfer_distance
+cd chamfer_distance
+pip install .
 
 ```
 
