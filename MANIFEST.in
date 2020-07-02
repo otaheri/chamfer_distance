@@ -1,0 +1,3 @@
+include README.md
+include chamfer_distance/*.cu
+include chamfer_distance/*.cu
