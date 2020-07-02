@@ -15,14 +15,6 @@ To install the package simply run the following line:
 pip install git+'https://github.com/OmidThr/chamfer_distance'
 
 ```
-Or clone and install as below:
-
-```
-git clone https://github.com/OmidThr/chamfer_distance
-cd chamfer_distance
-pip install .
-
-```
 
 ### Usage
 ```python
