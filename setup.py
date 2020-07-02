@@ -1,4 +1,7 @@
 from setuptools import setup
+import os
+
+os.system('pip install -r requirements.txt')
 
 setup(
     name='chamfer_distance',
@@ -15,6 +18,5 @@ setup(
     maintainer='Omid Taheri',
     maintainer_email='omid.taheri@tuebingen.mpg.de',
     keywords=['pip','chamfer_distance'],
-    install_requires=['torch>=1.1.0'],
       
     )
