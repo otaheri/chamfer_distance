@@ -3,6 +3,7 @@ from setuptools import setup
 setup(
     name='chamfer_distance',
     packages=['chamfer_distance'],
+    include_package_data=True,
     #packages=find_packages(),
     description='An implementation for chamfer distance in pytorch from chrdiller',
     #long_description=open("README.md").read(),
