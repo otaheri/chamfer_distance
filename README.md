@@ -1,6 +1,6 @@
 # Chamfer Distance for pyTorch
 
-This is an implementation of the Chamfer Distance as a module for pyTorch. It is written as a custom C++/CUDA extension.
+This is an installable implementation of the Chamfer Distance as a module for pyTorch from [Christian Diller](https://github.com/chrdiller). It is written as a custom C++/CUDA extension.
 
 As it is using pyTorch's [JIT compilation](https://pytorch.org/tutorials/advanced/cpp_extension.html), there are no additional prerequisite steps that have to be taken. Simply import the module as shown below; CUDA and C++ code will be compiled on the first run.
 
