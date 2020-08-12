@@ -18,7 +18,7 @@ pip install torch==1.5.1+cpu torchvision==0.6.1+cpu -f https://download.pytorch.
 
 To install the package simply run the following line:
 ```
-pip install git+'https://github.com/OmidThr/chamfer_distance'
+pip install git+'https://github.com/otaheri/chamfer_distance'
 
 ```
 
