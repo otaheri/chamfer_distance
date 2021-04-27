@@ -6,17 +6,12 @@ As it is using pyTorch's [JIT compilation](https://pytorch.org/tutorials/advance
 
 
 ### Requirements
-The only requirement is:
-  * [Pytorch>=1.1.0](https://pytorch.org/get-started/locally/) 
+The only requirement is PyTotch with cuda support:
+  * [PyTorch>=1.1.0](https://pytorch.org/get-started/locally/) 
   
 ### Installation
-If Pytorch is not installed run:
-```
- pip install torch==1.5.1+cpu torchvision==0.6.1+cpu -f https://download.pytorch.org/whl/torch_stable.html
-
-```
-
-To install the package simply run the following line:
+1. Install PyTorch (>= 1.1.0)
+2. To install the package simply run the following line:
 ```
 pip install git+'https://github.com/otaheri/chamfer_distance'
 
