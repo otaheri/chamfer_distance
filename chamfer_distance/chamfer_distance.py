@@ -64,6 +64,7 @@ def _handle_pointcloud_input(
 
 class ChamferDistance(torch.nn.Module):
     def forward(
+        self,
         x,
         y,
         x_lengths=None,
