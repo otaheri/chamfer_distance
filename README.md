@@ -46,5 +46,3 @@ print(f"Loss: {loss}")
 #...
 ```
 
-### Integration
-This code has been integrated into the [Kaolin](https://github.com/NVIDIAGameWorks/kaolin) library for 3D Deep Learning by NVIDIAGameWorks. You should probably take a look at it if you are working on anything 3D :)
