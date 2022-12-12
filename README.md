@@ -35,7 +35,8 @@ p1 = torch.rand([10,25,3])
 p2 = torch.rand([10,15,3])
 
 s = time.time()
-dist1, dist2, idx1, idx2 = chamfer_dist(p1,p2)
+chd = chamfer_dist()
+dist1, dist2, idx1, idx2 = chd(p1,p2)
 loss = (torch.mean(dist1)) + (torch.mean(dist2))
 
 torch.cuda.synchronize()
